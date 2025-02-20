@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+body{
+    background-image:url("../HTML/e commerce.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+section{
+    min-height: 1oovh;
+}
+.navbar{
+    width: 85%;
+    margin: auto;
+}
+nav{
+    height: 80px;
+}
+nav h1{
+    display: inline;
+    position: relative;
+    right: 40px;
+    float: left;
+    line-height: 80px;
+    font-size: 41px;
+    font-weight: bold 900;
+    color: #ee2e2e;
+}
+nav ul{
+    display: inline;
+    position: relative;
+    left: 70px;
+    float: right;
+    line-height: 80px;
+    padding: 0px 15px;
+}
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    padding: 5px 10px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: #690b0b;
+    font-size: 15px;
+    font-weight: 900;
+    padding: 7px 8px;
+    text-transform: uppercase;
+}
+nav ul li a:hover{
+    background-color: #ee2e2e;
+    border-radius: 15px;
+    transition: 0.5s ease;
+}
+.active{
+    background-color: #ee2e2e;
+    border-radius: 15px;
+}
+.main{
+    width: 85%;
+    margin: auto;
+    text-align: center;
+    padding-top: 180px;
+}
+.main-text h1{
+    font-size: 30px;
+    color: #ee2e2e;
+    font-weight: 900;
+}
+.main-text p{
+    font-size: 20px;
+    color: #690b0b;
+    font-weight: 900;
+    padding: 2px 0px;
+}
+.main-text a{
+    text-decoration: none;
+    border: 3px solid #ee2e2e;
+    color: #690b0b;
+    font-size: 15px;
+    font-weight: 900;
+    border-radius: 20px;
+    padding: 5px;
+    margin-top: 22px;
+    display: inline-block;
+}
+.main-text a:hover{
+    background-color: #ee2e2e;
+    color: #690b0b;
+    transition: 0.5s ease;
+}
